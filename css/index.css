@@ -1,0 +1,120 @@
+/*
+PALETA DE CORES:
+
+Azul: ##33568f
+Branco: #ffffff
+Cinza: #323232
+Preto: #000000
+*/
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    background-image:
+        linear-gradient(to bottom, transparent 85%, rgba(255, 255, 255, 1)),
+        url(../img/BACKGROUND.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header {
+    display: flex;
+}
+.V {
+    width: 200px;
+    margin-right: 200px;
+}
+.text-header {
+    text-align: center;
+    font-size: 32px;
+    color: #33568f;
+    margin-top: 60px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#botao-header {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.botao-header {
+    display: flex;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 20px;
+}
+.botao-header-isolado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 60px; 
+    text-align: center;
+    border: black solid 1px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #33568f;
+    transition: 0.3s;
+}
+.botao-header-isolado:hover {
+    background-color: #ffffff;
+    color: #33568f;
+    cursor: pointer;
+}
+.botao-header-link {
+    color: white; 
+    text-decoration: none;
+    padding: 75px;
+    padding-top: 0px; 
+    padding-bottom: 0px;
+}
+.botao-header-link:hover {
+    color: #33568f;
+}
+#servicos {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-color: #33568f;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.servicos {
+    display: flex;
+}
+.img-servicos {
+    padding: 12px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-servicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.vejamais {
+    color: white; 
+    background-color: #33568f; 
+    list-style: none; 
+    border: #33568f solid 2px; 
+    padding-left: 68px; 
+    padding-right: 68px; 
+    cursor: pointer; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 25px 5px;
+    transition: 0.3s;
+}
+.vejamais:hover {
+    background-color: white;
+    color: #33568f;
+}

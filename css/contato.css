@@ -1,0 +1,79 @@
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #33568f;
+}
+.contatologo {
+    width: 300px;
+    margin-right: 200px;
+}
+.textoheader {
+    color: white;
+    font-size: 48px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.contato-container {
+    background-color: #33568f;
+    color: white;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.descricao {
+    margin-bottom: 140px;
+    font-size: 16px;
+}
+
+.titulo-contato {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.contato-info {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.contato-item {
+    max-width: 200px;
+}
+
+.contato-titulo {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contato-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.contato-item a:hover {
+    text-decoration: underline;
+}
+
+.privacidade {
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.titulo-priv {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#meuTexto:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
