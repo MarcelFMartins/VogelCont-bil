@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="img/Logo Branca.svg"/>
+    <title>Contato - Vogel Assessoria Contábil e Consultoria</title>
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <nav>
+        <div style="background-color: #33568f;">
+            <ul style="list-style: none; display: flex; justify-content: right;  margin-bottom: 0px;">
+                <li style="color: #ffffff; padding-top: 1px; padding-bottom: 1px; padding-right: 30px;">
+                    <a class="nav-link" href="index.html">
+                        <p>Home</p>
+                    </a>
+                </li>
+                <li style="color: #ffffff; padding-top: 1px; padding-bottom: 1px; padding-right: 30px;">
+                    <a class="nav-link" href="servicos.html">
+                        <p>Serviços</p>
+                    </a>
+                </li>
+                <li style="color: #ffffff; padding-top: 1px; padding-bottom: 1px; padding-right: 30px;">
+                    <a class="nav-link" href="contato.html">
+                        <p>Entre em Contato</p>
+                    </a>
+                </li>
+                <li style="color: #ffffff; padding-top: 1px; padding-bottom: 1px; padding-right: 30px;">
+                    <a class="nav-link" href="nossa-historia.html">
+                        <p>Nossa História</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div id="header">
+        <div class="header">
+            <img class="contatologo" src="img/Logo Branca.svg" alt="">
+        </div>
+        <p class="textoheader"><b>ENTRE EM CONTATO</b></p>
+    </div>
+
+    <div class="contato-container">
+        <p class="descricao">Entre em contato para tirar dúvidas, agendar uma consultoria ou solicitar uma proposta personalizada.</p>
+        
+        <p class="titulo-contato">INFORMAÇÕES DE CONTATO:</p>
+
+        <div class="contato-info">
+            <div class="contato-item">
+                <p class="contato-titulo">Endereço</p>
+                <p><a href="https://maps.app.goo.gl/RT9HjTfKwb6fa1SP8" target="_blank">Rua Tereza Cristina, 234, Centro, <br>Matos Costa - SC</a></p>
+            </div>
+            <div class="contato-item">
+                <p class="contato-titulo">WhatsApp</p>
+                <p><a href="https://wa.link/auyhn5" target="_blank">+55 (49) 9806-4508 <br><b>CLIQUE AQUI</b></a></p>
+            </div>
+            <div class="contato-item">
+                <p class="contato-titulo">E-Mail</p>
+                <p id="meuTexto" onclick="copiarTexto()">vogel.contab@conection.com.br</p>
+            </div>
+        </div>
+
+        <script>
+            function copiarTexto() {
+                const texto = document.getElementById("meuTexto").innerText;
+                navigator.clipboard.writeText(texto).then(function() {
+                alert("E-mail copiado para a área de transferência!");
+                }, function(err) {
+                console.error('Erro ao copiar E-mail: ', err);
+                });
+            }
+        </script>
+
+
+        <div class="privacidade">
+            <p style="text-align: center;" class="titulo-priv">Política de Privacidade</p>
+            <p>
+                Coletamos apenas as informações necessárias para atendimento e contato. Seus dados são tratados com segurança e jamais serão compartilhados com terceiros sem sua autorização. Para mais informações ou para exercer seus direitos de privacidade, entre em contato: 
+                <a style="color: white;" href="#">vogel.contab@conection.com.br</a>
+            </p>
+        </div>
+    </div>
+    <div style="margin-top: 0px;" id="footer">
+        <div class="footer-text">
+            <br>
+            <b>
+            <p style="margin-bottom: 1px;">Pronto para focar no que importa?</p>
+            <p style="margin-top: 1px; margin-bottom: 70px;"><i>Deixe a burocracia com a gente!</i></p>
+            </b>
+            
+            <hr style="width: 1400px; border: none; background-color: #ffffff; height: 3px; margin-bottom: 60px;">
+
+            <div id="informacoes">
+                <ul style="justify-content: left; margin-left: 0px; padding-left: 0px;">
+                    <li class="ul-footer"  style="list-style: none; text-align: left; font-size: 14px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ">
+                        <b><p style="font-size: 22px;">Páginas</p></b>
+                        <a class="link-footer" href="index.html"><p>Home</p></a>
+                        <a class="link-footer" href="nossa-historia.html"><p>Nossa História</p></a>
+                        <a class="link-footer" href="servicos.html"><p>Serviços</p></a>
+                        <a class="link-footer" href="contato.html"><p>Entre em Contato</p></a>
+                    </li>
+
+                    <li class="ul-footer"  style="list-style: none; text-align: left; font-size: 14px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ">
+                        <b><p style="font-size: 22px;">Serviços</p></b>
+                        <a class="link-footer" href="servicos.html"><p>Contabilidade Empresarial</p></a>
+                        <a class="link-footer" href="servicos.html"><p>Consultoria Tributária</p></a>
+                        <a class="link-footer" href="servicos.html"><p>Abertura de Empresas</p></a>
+                        <a class="link-footer" href="servicos.html"><p>Departamento Pessoal</p></a>
+                    </li>
+                
+                    <li class="ul-footer"  style="list-style: none; text-align: left; font-size: 14px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ">
+                        <b><p style="font-size: 22px;">Contato</p></b>
+                        <a class="link-footer" href="https://wa.link/auyhn5" target="_blank"><p>WhatsApp: +55 (49) 99806-4508</p></a>
+                        <a class="link-footer"  id="meuTexto" onclick="copiarTexto()"><p>vogel.contab@conection.com.br</p></a>
+                        <p>Seg - Sex: 8h às 12h - 13:30h às 18h</p>
+                        <a class="link-footer" href="https://maps.app.goo.gl/RT9HjTfKwb6fa1SP8" target="_blank"><p>Endereço: Rua Tereza Cristina, 234, Centro, Matos Costa - SC</p></a>
+                    </li>
+                    <li>
+                        <img src="img/Logo Branca.svg" alt="Logo" style="width: 200px; padding-left: 0px; padding-right: 90px; padding-bottom: 0px">
+                    </li>
+                </ul>
+            </div>
+            
+            <hr style="width: 1400px; border: none; background-color: #ffffff; height: 3px; margin-bottom: 20px; margin-top: 50px;">
+
+            <div style="display: flex; justify-content: center; align-items: center; margin-top: 40px; margin-left: 70px;">
+            <p style="font-size: 12px; padding-bottom: 40px; margin-top: 0px;">
+                Vogel Assessoria Contábil e Consultoria <br>
+                © 2025 Todos os direitos reservados. <br>
+                Siga-nos nas redes sociais: <a style="text-decoration: none; color: white;" href="">Instagram</a> | <a style="text-decoration: none; color: white;" href="">LinkedIn</a>
+            </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
